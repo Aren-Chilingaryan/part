@@ -1,0 +1,26 @@
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    .tasks{
+        margin: 5px 8px;
+        border: 2px solid black;
+        width: 60%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        .btn{
+            background-color: #008CBA;
+            color: white;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 5px 0;
+            cursor: pointer;
+        }
+    }
+}

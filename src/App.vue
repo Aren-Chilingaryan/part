@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <Part1/> -->
+    <!-- Please uncomment this for part2 -->
+    <Part2/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Part1 from "./components/Part1.vue";
+import Part2 from "./components/Part2.vue";
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Part1,
+    Part2
   }
 }
 </script>
@@ -21,8 +23,5 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

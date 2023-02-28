@@ -1,0 +1,17 @@
+.load-animation{
+    border-radius: 50%;
+    background-color: black;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+.show{
+    height: 150px;
+    width: 150px;
+    visibility: visible;
+}
